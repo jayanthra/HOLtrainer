@@ -1,0 +1,14 @@
+{
+  "name": "Higher Or Lower Game",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Auto play Higher or Lower game https://www.higherlowergame.com/",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
